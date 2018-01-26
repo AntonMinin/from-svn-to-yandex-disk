@@ -1,0 +1,67 @@
+{
+  "_from": "from-svn-to-yandex-disk@latest",
+  "_inBundle": false,
+  "_integrity": "sha512-tNxb5B60mJxwmgrr4vBZ0AvVetFWbolywnnLdDbN4KRRRhhe9S+5BEGZjTzBMesUxguXbnc+OsjBdJFG23USgg==",
+  "_location": "/from-svn-to-yandex-disk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "from-svn-to-yandex-disk@latest",
+    "name": "from-svn-to-yandex-disk",
+    "escapedName": "from-svn-to-yandex-disk",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/from-svn-to-yandex-disk/-/from-svn-to-yandex-disk-1.0.5.tgz",
+  "_shasum": "82252767014f9a18934af516902e30b9e8263064",
+  "_spec": "from-svn-to-yandex-disk@latest",
+  "_where": "C:\\repositories\\temp",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/AntonMinin/from-svn-to-yandex-disk/issues"
+  },
+  "bundleDependencies": false,
+  "devDependencies": {
+    "express": "^3.21.2",
+    "promise": "8.0.1",
+    "request": "2.83.0",
+    "rmdir": "1.2.0",
+    "svn-spawn": "0.1.5"
+  },
+  "dependencies": {
+    "commander": "^2.13.0",
+    "content": "4.0.3",
+    "content-disposition": "^0.5.2",
+    "promise": "8.0.1",
+    "request": "2.83.0",
+    "rmdir": "1.2.0",
+    "svn-spawn": "0.1.5"
+  },
+  "deprecated": false,
+  "description": "Копирование данных из SVN в Яндекс.Диск",
+  "homepage": "https://github.com/AntonMinin/from-svn-to-yandex-disk",
+  "keywords": [],
+  "license": "ISC",
+  "main": "./lib/index.js",
+  "name": "from-svn-to-yandex-disk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonMinin/from-svn-to-yandex-disk"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.15",
+  "directories": {
+    "lib": "lib"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "from-svn-to-yandex-disk": "./bin/from-svn-to-yandex-disk.js"
+  }
+}
